@@ -52,6 +52,8 @@ class Main:
             Calculator.mult(a,b)
         elif qwe == "/":
             Calculator.div(a,b)
+        else:
+            raise ValueError("Operation can't be null")
 
     #Testing
     def doTests():
