@@ -1,4 +1,3 @@
-﻿
 givenInput = input("Enter string:")
 listInput = list(givenInput)
 print(listInput)
